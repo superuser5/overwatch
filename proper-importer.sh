@@ -129,8 +129,6 @@ then
 fi
         printf "+  IP ID file created: ${lightgreen}OK${nc}\n\n"
 #
-rsync -avz --progress /root/scripts/circus/temp/outfiletwo.csv -e 'ssh -p 69' root@sechq01.dyndns.org:/root/scripts/circus/screenshotlist.txt
-#
 # -- NOTICE FOR USER --
 printf "*************************${red}X${nc}*************************\n"
 echo "This import function has sent off the list of IPs "
