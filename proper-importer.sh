@@ -20,7 +20,7 @@ echo 'Loading Variables...' | pv -qL 15
 # Les Variables;
 #
 # Scan Files:
-allscans='/root/scripts/circus/raw_outputs/archive/public1/public1.log'
+allscans='/root/scripts/circus/sample.log'
 # Sanitised File
 san='/root/scripts/circus/temp/san.log'
 # Do I need to explain this one?
