@@ -34,7 +34,7 @@ filetwodone='/root/scripts/circus/temp/outfiletwodone.csv'
 outfilethree='/root/scripts/circus/temp/outfilethree.csv'
 filethreedone='/root/scripts/circus/temp/outfilethreedone.csv'
 #
-# To be sent to SEC-HQ-01 for processing...
+# To be sent to $ProcessingServer for processing...
 sendfile='/root/scripts/circus/temp/sendfile.csv'
 #
 # Move files because of 'secure file priv'
